@@ -84,10 +84,13 @@
     color: black;
 }
 @media (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+    }
     .content-body{
         background-color: #333;
         width: 500px !important;
-        height: 100vh;
+        height: 750px;
         display: flex;
         justify-content: center;
         align-items: center;
